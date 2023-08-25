@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body class="text-white">
+    <section
+      class="bg-black h-screen flex flex-col justify-center items-center"
+    >
+      <h1 class="text-2xl font-bold text-center">Hover Effect</h1>
+      <p class="mt-2 mb-6">Mini proyecto de Tailwind con Vite.js.</p>
+      <!-- Card -->
+      <article
+        class="relative w-[200px] transition-all duration-300 article-hover before:content-[''] before:absolute before:bottom-0 before:h-full before:w-full before:bg-gradient-to-b before:from-transparent/10 before:via-black/60 before:to-black/95 before:opacity-0 before:transition-all before:duration-300 before:hover:opacity-100 group"
+      >
+        <img
+          class="shadow-2xl rounded-md"
+          src="https://pbs.twimg.com/media/FoEfgVBaIAIMJxB?format=jpg&name=large"
+          alt="background"
+        />
+        <img
+          class="absolute w-[150px] bottom-0 right-0 left-0 m-auto translate-y-[25%] transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-[10%]"
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5653372f-c704-4218-b683-1c0147c9040e/dfplkku-675baec4-d51b-47f8-803a-bc0a8677fcbc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU2NTMzNzJmLWM3MDQtNDIxOC1iNjgzLTFjMDE0N2M5MDQwZVwvZGZwbGtrdS02NzViYWVjNC1kNTFiLTQ3ZjgtODAzYS1iYzBhODY3N2ZjYmMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7GkwDly77IAtej_snbjwaUlfMilV5CUSd-keSGylIY4"
+          alt="bowser"
+        />
+      </article>
+    </section>
+    <footer
+      class="fixed bottom-0 w-full text-center mb-6 text-white/60 text-xs"
+    >
+      🎶Peaches, Peaches, Peaches, Peaches, Peaches🎶
+    </footer>
+  </body>
+</html>
